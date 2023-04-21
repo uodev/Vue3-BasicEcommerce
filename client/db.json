@@ -1,0 +1,78 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "name" : "Product 1",
+            "price" : 10.00,
+            "category" : "Klasik",
+            "image": "/src/assets/img/bag_one.jpg"
+        },
+        {
+            "id": 2,
+            "name" : "Product 2",
+            "price" : 30.00,
+            "category" : "Vintage",
+            "image": "/src/assets/img/bag_two.jpg"
+
+        },
+        {
+            "id": 3,
+            "name" : "Product 3",
+            "price" : 95.00,
+            "category" : "Vintage",
+            "image": "/src/assets/img/bag_one.jpg"
+        },
+        {
+            "id": 4,
+            "name" : "Product 4",
+            "price" : 80.00,
+            "category" : "Klasik",
+            "image": "/src/assets/img/bag_two.jpg"
+
+        },
+        {
+            "id": 5,
+            "name" : "Product 5",
+            "price" : 57.00,
+            "category" : "Deri",
+            "image": "/src/assets/img/bag_one.jpg"
+        }
+    ],
+    "categories" : [
+        {
+            "id": 1,
+            "name" : "Klasik Çantalar",
+            "image":"/src/assets/img/bag_one.jpg"
+        },
+        {
+            "id": 2,
+            "name" : "Vintage Çantalar",
+            "image":"/src/assets/img/bag_two.jpg"
+        },
+        {
+            "id": 3,
+            "name" : "Deri Çantalar",
+            "image":"/src/assets/img/bag_one.jpg"
+        },
+        {
+            "id": 4,
+            "name" : "Vintage Çantalar",
+            "image":"/src/assets/img/bag_two.jpg"
+        },
+        {
+            "id": 5,
+            "name" : "Deri Çantalar",
+            "image":"/src/assets/img/bag_one.jpg"
+        },
+        {
+            "id": 6,
+            "name" : "Vintage Çantalar",
+            "image":"/src/assets/img/bag_two.jpg"
+        },
+        {
+            "id": 7,
+            "name" : "Deri Çantalar",
+            "image":"/src/assets/img/bag_one.jpg"
+        }
+    ]
+}
