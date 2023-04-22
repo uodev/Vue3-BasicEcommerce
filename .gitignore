@@ -1,15 +1,15 @@
 
 ./node_modules
-./node_modules/.bin
-./client/node_modules   
-./client/node_modules/.bin
-./server/node_modules/.bin
-./server/node_modules
+node_modules/.bin
+client/node_modules   
+client/node_modules/.bin
+server/node_modules/.bin
+server/node_modules
 
-./client/.idea
-./client/.env
-./client/.vscode
-./server/.idea
+client/.idea
+client/.env
+client/.vscode
+server/.idea
 server/.env
 server/.vscode
 server/tmp

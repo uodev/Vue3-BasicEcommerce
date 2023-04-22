@@ -68,14 +68,15 @@ import {
   StyledProductPrice
 } from '../styled-components/productdetail/productDetailStyled'
 import { useRoute } from 'vue-router'
-import { getOneProductFun, buyProductFun } from '../utils/ApiFunc'
+import { buyProductFun } from '../utils/ApiFunc'
 import { onBeforeMount, ref } from 'vue'
 import Product from '../utils/Product'
+import { useProductStore } from '../stores/product'
 
 const id = useRoute().params.id
 const product = ref<Product>()
-onBeforeMount(async () => {
-  product.value = await getOneProductFun(id)
+onBeforeMount(() => {
+  product.value = useProductStore().getOneProduct(id.toString())
 })
 
 const buyProduct = async () => {

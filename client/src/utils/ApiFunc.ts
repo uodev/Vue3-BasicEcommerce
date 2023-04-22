@@ -8,23 +8,8 @@ async function request<TResponse>(url: string, config: Object = {}): Promise<TRe
   return dataJson.data as TResponse
 }
 
-export async function mostViwedFun() {
-  const data = await request<Product[]>('http://localhost:3000/api/products/most-viewed')
-  return data
-}
-
-export async function mostBoughtFun() {
-  const data = await request<Product[]>('http://localhost:3000/api/products/most-bought')
-  return data
-}
-
 export async function getCategoriesFun() {
   const data = await request<Category[]>('http://localhost:3000/api/categories')
-  return data
-}
-
-export async function getOneProductFun(id: string | string[] | undefined) {
-  const data = await request<Product>(`http://localhost:3000/api/products/${id}`)
   return data
 }
 

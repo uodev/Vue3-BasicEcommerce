@@ -1,7 +1,7 @@
 import Category from './Category'
 
 interface Product {
-  _id: number
+  _id: string
   name: string
   price: number | string | any
   image: File | null
