@@ -111,7 +111,10 @@ Client'i çalıştırmak için
 | `image`   | `string` | **Gerekli**. Kategori resmi. |
 
 ## Resimler
+### Anasayfa
 <img src="https://i.hizliresim.com/ppoewwv.png" alt="herosection" />
 <img src="https://i.hizliresim.com/rpqydao.png" alt="anasayfa" />
+### Ürünler
 <img src="https://i.hizliresim.com/9rtjajm.png" alt="ürünler"/>
+### Ürün Ekle
 <img src="https://i.hizliresim.com/e6gcjo7.png" alt="ürünekle"/>
