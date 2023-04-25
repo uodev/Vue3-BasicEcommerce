@@ -111,7 +111,7 @@ Client'i çalıştırmak için
 | `image`   | `string` | **Gerekli**. Kategori resmi. |
 
 ## Resimler
-<img src="https://i.hizliresim.com/ppoewwv.png" alt="herosection" width="150" height="150"/>
-<img src="https://www.hizliresim.com/rpqydao" alt="anasayfa" width="150" height="150"/>
-<img src="https://i.hizliresim.com/9rtjajm.png" alt="ürünler" width="150" height="150"/>
-<img src="https://i.hizliresim.com/e6gcjo7.png" alt="ürünekle" width="150" height="150"/>
+<img src="https://i.hizliresim.com/ppoewwv.png" alt="herosection" width="400" height="400"/>
+<img src="https://i.hizliresim.com/rpqydao.png" alt="anasayfa" width="400" height="400"/>
+<img src="https://i.hizliresim.com/9rtjajm.png" alt="ürünler" width="400" height="400"/>
+<img src="https://i.hizliresim.com/e6gcjo7.png" alt="ürünekle" width="400" height="400"/>
